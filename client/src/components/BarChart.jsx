@@ -14,7 +14,7 @@ class BarChart extends React.Component {
     //variable containing x axis labels for artists
     const artistNames = this.props.artists;
     //variable that contains the chart to display
-    const svg = d3.select("holder")
+    const svg = d3.select("body")
     .append("svg")
     .attr("width", 1000)
     .attr("height", 1000)

@@ -12982,7 +12982,7 @@ var BarChart = function (_React$Component) {
       //variable containing x axis labels for artists
       var artistNames = this.props.artists;
       //variable that contains the chart to display
-      var svg = d3.select("holder").append("svg").attr("width", 1000).attr("height", 1000).style("margin-left", 600);
+      var svg = d3.select("body").append("svg").attr("width", 1000).attr("height", 1000).style("margin-left", 600);
       var label = ['mitksi', 'i', 'j'];
 
       svg.selectAll("rect").data(artistInfo).enter().append("rect").attr("x", function (d, i) {
