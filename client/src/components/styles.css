@@ -1,0 +1,56 @@
+.playlist{
+  font-family: Arial, Helvetica, sans-serif;
+  /* padding-right: 30px; */
+  /* background-color: #fea49f; */
+}
+
+.flex-container-interaction {
+  background-color:#fbaf08;
+  display: flex;
+  flex-direction: row;
+  width: 375px;
+  border: solid  #101357;
+  border-width: 2px;
+  border-radius: 10%;
+}
+
+.stats {
+  color: #101357;
+  font-size: 16px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.spacer {
+  margin-top: 60px;
+  margin-bottom: 30px;
+  display: flex;
+  flex-direction: row;
+  width: 475px;
+}
+.holder {
+  text-align: center
+}
+
+.title {
+  text-align: center;
+  background-color: #101357;
+  border-width: 1px;
+  margin-left: 200px;
+  margin-right: 200px;
+  font-size: 20pt;
+  color: #FFFFFF;
+  border-radius: 4px;
+}
+
+.formstyle {
+  border-radius: 10%;
+  text-align: center;
+  width: 500px;
+  margin-top: 10px;
+}
+.submitButton {
+  border-radius: 4px;
+  width: 100px;
+  margin-top: 20px;
+}
