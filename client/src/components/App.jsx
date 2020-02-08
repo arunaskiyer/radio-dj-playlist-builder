@@ -5,6 +5,7 @@ import TracksList from './TracksList.jsx'
 import BarChart from './BarChart.jsx'
 import Axios from 'axios';
 import './styles.css';
+import * as d3 from 'd3';
 import { throws } from 'assert';
 
 
